@@ -1,0 +1,10 @@
+# Adaptive Trend Fusion Strategy - Python Dependencies
+# Compatible with Python 3.11+
+
+# Base requirements inherited from base-bot-template
+# This file is for strategy-specific dependencies only
+
+# No additional dependencies required beyond base template
+# All technical indicators are implemented natively in the strategy
+
+

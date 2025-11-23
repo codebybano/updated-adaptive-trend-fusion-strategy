@@ -1,0 +1,7 @@
+# Backtest Runner Requirements
+# These are additional requirements beyond the base template
+
+yfinance>=0.2.28
+pandas>=2.0.0
+
+

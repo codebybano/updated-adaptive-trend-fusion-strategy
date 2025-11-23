@@ -1,0 +1,42 @@
+{
+  "backtest_date": "2025-11-22T05:04:21.197769+00:00",
+  "strategy": "Adaptive Trend Fusion",
+  "period": "2024-01-01 to 2024-06-30",
+  "btc": {
+    "final_equity": 5959.582470425663,
+    "total_return_pct": 19.19164940851326,
+    "max_drawdown_pct": 6.527407769239399,
+    "total_trades": 51,
+    "win_rate_pct": 84.0,
+    "profit_factor": 38.27960747538271,
+    "sharpe_ratio": 0.3587125864286254
+  },
+  "eth": {
+    "final_equity": 6247.200024746739,
+    "total_return_pct": 24.94400049493477,
+    "max_drawdown_pct": 12.218087951385604,
+    "total_trades": 55,
+    "win_rate_pct": 88.88888888888889,
+    "profit_factor": 362.1866903342974,
+    "sharpe_ratio": 0.3414109777083445
+  },
+  "combined": {
+    "starting_cash": 10000.0,
+    "final_equity": 12206.782495172401,
+    "total_pnl": 2206.7824951724015,
+    "total_return_pct": 22.067824951724017,
+    "max_drawdown_pct": 12.218087951385604,
+    "total_trades": 106,
+    "win_rate_pct": 86.53846153846155,
+    "profit_factor": 72.36440453872659,
+    "avg_sharpe": 0.35006178206848493
+  },
+  "contest_compliance": {
+    "min_trades": true,
+    "max_drawdown": "True",
+    "target_return": "False",
+    "position_sizing": true,
+    "data_source": "Yahoo Finance",
+    "date_range": "2024-01-01 to 2024-06-30"
+  }
+}
