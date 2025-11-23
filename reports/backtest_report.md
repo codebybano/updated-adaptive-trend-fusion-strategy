@@ -1,6 +1,6 @@
 # Adaptive Trend Fusion Strategy - Backtest Report
 
-**Generated:** 2025-11-22 05:04:21 UTC
+**Generated:** 2025-11-23 03:47:24 UTC
 
 ## Strategy Overview
 
@@ -24,13 +24,13 @@ The Adaptive Trend Fusion Strategy is a sophisticated multi-regime trading syste
 | Metric | Value |
 |--------|-------|
 | Starting Capital | $10,000.00 |
-| Final Equity | $12,206.78 |
-| Total P&L | $+2,206.78 |
-| **Total Return** | **+22.07%** |
-| Max Drawdown | 12.22% |
-| Total Trades | 106 |
-| Win Rate | 86.5% |
-| Profit Factor | 72.36 |
+| Final Equity | $12,292.64 |
+| Total P&L | $+2,292.64 |
+| **Total Return** | **+22.93%** |
+| Max Drawdown | 12.54% |
+| Total Trades | 95 |
+| Win Rate | 87.2% |
+| Profit Factor | 67.99 |
 | Sharpe Ratio | 0.35 |
 
 ## Individual Asset Performance
@@ -39,29 +39,29 @@ The Adaptive Trend Fusion Strategy is a sophisticated multi-regime trading syste
 
 | Metric | Value |
 |--------|-------|
-| Return | +19.19% |
-| Max Drawdown | 6.53% |
-| Trades | 51 |
-| Win Rate | 84.0% |
-| Sharpe Ratio | 0.36 |
+| Return | +21.37% |
+| Max Drawdown | 8.09% |
+| Trades | 46 |
+| Win Rate | 82.6% |
+| Sharpe Ratio | 0.37 |
 
 ### ETH-USD
 
 | Metric | Value |
 |--------|-------|
-| Return | +24.94% |
-| Max Drawdown | 12.22% |
-| Trades | 55 |
-| Win Rate | 88.9% |
-| Sharpe Ratio | 0.34 |
+| Return | +24.48% |
+| Max Drawdown | 12.54% |
+| Trades | 49 |
+| Win Rate | 91.7% |
+| Sharpe Ratio | 0.33 |
 
 ## Contest Compliance
 
 | Requirement | Status | Value |
 |-------------|--------|-------|
-| Minimum Trades (10+) | ✅ Pass | 106 |
-| Max Drawdown (<50%) | ✅ Pass | 12.22% |
-| Target Return (>30%) | ⚠️ Miss | +22.07% |
+| Minimum Trades (10+) | ✅ Pass | 95 |
+| Max Drawdown (<50%) | ✅ Pass | 12.54% |
+| Target Return (>30%) | ⚠️ Miss | +22.93% |
 | Position Sizing (≤55%) | ✅ Pass | Compliant |
 | Data Source | ✅ Pass | Yahoo Finance |
 | Date Range | ✅ Pass | 2024-01-01 to 2024-06-30 |
@@ -84,6 +84,6 @@ strategy_config = {
 
 ## Conclusion
 
-⚠️ The strategy achieved +22.07% returns, which is 7.93 percentage points below the 30% target.
+⚠️ The strategy achieved +22.93% returns, which is 7.07 percentage points below the 30% target.
 
 The strategy demonstrates strong risk-adjusted performance with regime-adaptive position sizing and sophisticated entry/exit logic.
